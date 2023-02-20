@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/stockmarket/static/css/main.feb6d551.css",
+    "main.css": "/stockmarket/static/css/main.b95ab184.css",
     "main.js": "/stockmarket/static/js/main.32161d96.js",
     "static/media/person.jpg": "/stockmarket/static/media/person.e8d8802b64242d9d4245.jpg",
     "index.html": "/stockmarket/index.html",
-    "main.feb6d551.css.map": "/stockmarket/static/css/main.feb6d551.css.map",
+    "main.b95ab184.css.map": "/stockmarket/static/css/main.b95ab184.css.map",
     "main.32161d96.js.map": "/stockmarket/static/js/main.32161d96.js.map"
   },
   "entrypoints": [
-    "static/css/main.feb6d551.css",
+    "static/css/main.b95ab184.css",
     "static/js/main.32161d96.js"
   ]
 }
