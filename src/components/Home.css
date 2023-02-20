@@ -1,0 +1,21 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.main-div{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-left{
+    height:100vh;
+    width: 15vw;
+    border-right: 0.1vw solid rgb(197, 205, 237);
+}
+
+.main-right{
+    height:100vh;
+    width:85vw;
+}
+

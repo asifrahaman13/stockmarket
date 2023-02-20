@@ -1,0 +1,86 @@
+.left-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding-left:2vw;
+    padding-top:2vh;
+}
+
+.left-container-segments{
+    border-radius: 30px;
+    margin-top:2vh;
+    width:90%;
+    height:4vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#kara{
+    position: relative;
+    top:27vh;
+}
+
+.left-container-segments p{
+    padding-left:0.5vw;
+    font-weight: 500;
+    font-size: 0.9rem;
+    color:rgb(8, 23, 88);
+    font-family: 'Rowdies', cursive;
+}
+
+#horizontal{
+    height:1px;
+    background-color: rgb(148, 148, 215);
+}
+
+#bluereceipt{
+    font-weight: 900;
+    color:rgb(4, 4, 70);
+}
+
+.icon{
+    width:1.5vw;
+    height:3vh;
+    
+}
+#search{
+    background-color: rgb(231, 232, 249);
+}
+#dashboard{
+    background-color: rgb(181, 196, 246);
+    font-weight: 700;
+    color:rgb(76, 76, 213);
+}
+
+.image{
+    background-image: url("person.jpg");
+    height: 4vh;
+    width: 4vh;
+    border-radius: 30px;
+    background-size: 100% 100%;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    margin-left:1.2vw;
+}
+
+.first{
+    font-weight: 700;
+}
+
+.left-container-segments p *{
+    text-decoration: none;
+}
+
+
+.text{
+    background-color: rgb(231, 232, 249);
+    border-style: none;
+    width: 100%;
+    border-width: 0px;
+    outline:0px none transparent;
+    padding-left: 0.5vw;
+}

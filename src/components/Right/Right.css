@@ -1,0 +1,283 @@
+.right-container {
+  display: flex;
+  flex-direction: column;
+}
+.right-container-fragments:nth-child(1) {
+  height: 10vh;
+}
+.right-container-fragments:nth-child(2) {
+  height: 16vh;
+}
+.right-container-fragments:nth-child(3) {
+  height: 40vh;
+}
+.right-container-fragments:nth-child(4) {
+  height: 34vh;
+}
+
+#right-first-fragment {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.upper-header:nth-child(1) {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 2vw;
+}
+.upper-header:nth-child(2) {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.upper-icon {
+  font-size: 1.5rem;
+  padding-bottom: 0.8vh;
+  font-weight: 900;
+  font-family: "Rowdies", cursive;
+}
+
+.upper-image {
+  background-image: url("person.jpg");
+  height: 6vh;
+  width: 6vh;
+  border-radius: 30px;
+  background-size: 100% 100%;
+}
+
+.date {
+  padding: 0.7vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 2px solid rgb(167, 184, 235);
+  margin-left: 0.5vw;
+  height: 1vh !important;
+  border-radius: 30px;
+}
+
+.today {
+  padding-left: 0.5vw;
+}
+
+.right-container-fragments {
+  display: flex;
+  flex-direction: row;
+}
+.right-container-fragments .right-middle-fragment {
+  width: 25%;
+}
+
+.right-middle-fragment {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  padding-left: 2vw;
+  padding-top: 1vh;
+}
+
+.right-middle-fragment * {
+  padding-top: 1vh;
+}
+
+.designation {
+  color: rgb(137, 137, 212);
+  font-family: "Rowdies", cursive;
+}
+
+.figures {
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-family: "Rowdies", cursive;
+}
+
+.sales {
+  color: rgb(137, 137, 212);
+  font-family: "Rowdies", cursive;
+}
+
+.right-middle-fragment * {
+  display: flex;
+  flex-direction: row;
+  padding: 0.2vw;
+  border-radius: 30vw;
+}
+
+.positive-change {
+  background-color: rgb(217, 243, 234);
+  color: rgb(9, 56, 9);
+  font-weight: 700;
+}
+
+.negative-change {
+  background-color: rgb(250, 218, 205);
+  font-weight: 700;
+}
+
+.right-container-fragments {
+  display: flex;
+  flex-direction: row;
+}
+
+.second {
+  font-family: "Rowdies", cursive;
+  color: rgb(118, 118, 192);
+}
+
+#graph {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.right-foooter-fragment:nth-child(1) {
+  width: 65%;
+}
+
+.right-foooter-fragment:nth-child(2) {
+  width: 35%;
+  /* background-image: url("gauge.png"); */
+  width: 35%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-size: 100% 100%;
+}
+
+.cart-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 5vh;
+}
+
+.cart-headers {
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  display: grid;
+  place-items: center;
+  border-bottom: 2px solid rgb(92, 92, 225);
+}
+
+.cart-headersdfd {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.select-month {
+  border: 1px solid rgb(198, 224, 244);
+  width: 50%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  border-radius: 30px;
+}
+
+.cart-body {
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+}
+
+.cart-items {
+  height: calc(100% / 3);
+}
+#abandoned {
+  height: calc(100% / 3);
+}
+.cart-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#cart-content {
+  width: 75%;
+}
+
+#cart-numbers {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  padding-right: 2vw;
+}
+.amount {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.orders {
+  color: rgb(111, 111, 201);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.cart-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.cart-title:nth-child(1) {
+  padding-left: 2.5vw;
+}
+.cart-title:nth-child(2) {
+  padding-left: 1vw;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.stats {
+  color: rgb(111, 111, 201);
+}
+
+.cart-title:nth-child(1) {
+  width: 25px;
+  height: 25px;
+}
+
+.cart-items:hover {
+  background-color: rgb(236, 238, 246);
+  transition: 1s;
+}
+
+.right-foooter-fragment:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.level-header:nth-child(1) {
+  color: blue;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.level-header:nth-child(2) {
+  color: rgb(138, 138, 216);
+  font-weight: 700;
+}
+
+.gauge:nth-child(3) {
+  font-weight: 900;
+  font-size: 1.6rem;
+  font-family: "Rowdies", cursive;
+}

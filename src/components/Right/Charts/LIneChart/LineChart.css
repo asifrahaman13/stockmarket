@@ -1,0 +1,15 @@
+#line {
+  width: 1000% !important;
+}
+
+.graph {
+  height: 100%;
+  margin-left: 0px !important;
+  padding-left: 0px !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative !important;
+  width: 96% !important;
+}
