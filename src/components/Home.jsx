@@ -21,7 +21,7 @@ const Home = () => {
           </div>
           <div className="main-right">
             <Routes>
-              <Route path="/" element={<Right />} />
+              <Route path="/stockmarket" element={<Right />} />
               <Route path="/conversations" element={<Conversation />} />
               <Route path="/automatics" element={<Automatics />} />
               <Route path="/compaigns" element={<Compaigns />} />

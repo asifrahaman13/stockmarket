@@ -28,7 +28,7 @@ const Left = () => {
         <div className="left-container-segments" id="dashboard">
           <AiFillDashboard className="icon" />
           <p>
-            <NavLink to="/">Dashboard</NavLink>
+            <NavLink to="/stockmarket">Dashboard</NavLink>
             </p>
         </div>
         <div className="left-container-segments" id="horizontal"></div>
